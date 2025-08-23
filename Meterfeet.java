@@ -11,6 +11,6 @@ public class MeterToFeet {
 
         System.out.println(a + " meters = " + b + " feet");
 
-        num.close();
+        
     }
 }
