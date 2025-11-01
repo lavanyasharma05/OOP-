@@ -1,21 +1,11 @@
 import java.io.*;
 class Geeks {
     public static void main(String[] args) {
-        // Constructor 1: Creating string using new keyword
-      
-        String str1 = new String("Hello Java");
-        System.out.println("String using new keyword: " + str1);
-      
-        // Constructor 2: Creating string from character array
-      
-        char[] charArray = { 'J', 'A', 'V', 'A' };
-        String str2 = new String(charArray);
-        System.out.println("String from char array: " + str2);
-      
-        // Constructor 3: Creating string from byte array
-      
-        byte[] byteArray = { 72, 101, 108, 108, 111 };
-        String str3 = new String(byteArray);
-        System.out.println("String from byte array: " + str3);
+        byte[] byteArray = { 108, 97, 118, 97, 110, 121, 97 };
+        String str2 = new String(byteArray);
+        System.out.println("String from byte array: " + str2);
+       byte[] byteArray1 = { 108, 97, 118, 97, 110, 121, 97,46,57, 64, 103,109,97,105,108,46,99,111,109};
+        String str3 = new String(byteArray1);
+       System.out.println("String from byte array: " + str3);
     }
 }
